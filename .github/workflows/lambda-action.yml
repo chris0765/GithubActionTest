@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v1
       - name: Install AWS CLI
         run: |
-          sudo apt install aws-cli
+          sudo apt install awscli
           sudo apt-get install zip unzip
       - name: Zip lambda_function code
         run: |
