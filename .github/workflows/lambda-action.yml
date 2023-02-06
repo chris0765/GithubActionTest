@@ -27,4 +27,4 @@ jobs:
           zip lambda_function.zip ./lambda/lambda_function.py
       - name: Deploy to lambda
         run: |
-          aws lambda update-function-code --function-name lambda-action-test --zip-file lambda_function.zip
+          aws lambda update-function-code --function-name lambda-action-test --zip-file fileb://lambda_function.zip
